@@ -29,6 +29,7 @@ void console() {
             std::cout << "  exit - Quit this terminal" << std::endl;
             std::cout << "  wincmd <command> - Run a normal CMD commands" << std::endl;
             std::cout << "  linkopen <URL> - Open URL with a CLI" << std::endl;
+            std::cout << "  pcinfo - Shows the computer info" << std::endl;
             return console();
         } else if (command == "exe") {
             std::string filename;
